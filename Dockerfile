@@ -3,7 +3,7 @@ FROM drush/drush:base
 MAINTAINER Fedor Zakharov <fedor@therefore.ca>
 
 # Set the Drush version.
-ENV DRUSH_VERSION 8.4.8.
+ENV DRUSH_VERSION 8.4.8
 
 # Install Drush 8 with the phar file.
 RUN curl -fsSL -o /usr/local/bin/drush "https://github.com/drush-ops/drush/releases/download/$DRUSH_VERSION/drush.phar" && \
